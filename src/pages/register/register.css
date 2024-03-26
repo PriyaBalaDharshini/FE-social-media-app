@@ -1,0 +1,83 @@
+.signin {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(253, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signinWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.signinWrapperLeft,
+.signinWrapperRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signinLogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #f43346;
+    margin-bottom: 10px;
+}
+
+.signinDesc {
+    font-size: 24px;
+}
+
+.signinBox {
+    display: flex;
+    justify-content: space-evenly;
+    height: 350vh;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.signinInput {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.signinInput:focus {
+    outline: none;
+}
+
+.signinButton {
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f43346;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.signinForgot {
+    text-align: center;
+    color: #f43346;
+}
+
+.signinRegister {
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(94, 237, 94);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 50%;
+    align-self: center;
+}
