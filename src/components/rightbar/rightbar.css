@@ -2,8 +2,8 @@
     flex: 2.5;
     width: 100%;
     margin: 15px;
-}
 
+}
 .rightbarWrapper {
     padding: 20px;
 }
@@ -38,38 +38,4 @@
     margin: 0;
     padding: 0;
     list-style: none;
-}
-
-.rightbarFriend {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.rightbarContainer {
-    margin-right: 10px;
-    position: relative;
-}
-
-.rightbarProfileImg {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid lightcoral;
-    padding: 4px;
-}
-
-.rightbarOnline {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: green;
-    position: absolute;
-    top: -2;
-    right: 0;
-}
-
-.rightbarUsername {
-    font-weight: 500;
 }
